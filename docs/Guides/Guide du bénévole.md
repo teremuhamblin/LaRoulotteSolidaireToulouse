@@ -1,5 +1,5 @@
 # 📘 Guide du Bénévole  
-`- version 1.0`
+- `version 1.0`
 - *La Roulotte Solidaire Toulouse*
 
 Bienvenue dans l’équipe !  
