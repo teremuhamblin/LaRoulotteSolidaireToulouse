@@ -1,5 +1,6 @@
-# 📘 Guide de Communication - version 1
-*La Roulotte Solidaire Toulouse*
+# 📘 Guide de Communication 
+- `version 1.0`
+- *La Roulotte Solidaire Toulouse*
 
 La communication est essentielle pour faire connaître nos actions, mobiliser les citoyens, valoriser les bénévoles et encourager les dons.  
 Ce guide t’aide à communiquer de manière cohérente, respectueuse et efficace.
