@@ -25,7 +25,11 @@ Ils ne sont pas obligatoires, mais peuvent aider à structurer certaines tâches
 ### ✔️ Maintenance
 - vérifier la structure du dépôt  
 - générer des modèles de documents  
-- automatiser des tâches répétitives  
+- automatiser des tâches répétitives
+
+### ✔️ Panneau de configuration 
+- créer et gérer des compte bénévoles
+- creer et gérer des comptes bénéficiaires 
 
 ### ✔️ Automatisation (optionnel)
 - génération de rapports  
