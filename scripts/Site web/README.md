@@ -1,12 +1,16 @@
-🌐 README — Site Web de La Roulotte Solidaire Toulouse
+- ##### README.md 
+- Site Web OPEN-SOURCES
 
-`markdown
+---
 
-🌐 Site Web — La Roulotte Solidaire Toulouse
-Plateforme officielle d’information, de coordination et de mobilisation citoyenne.
+# SITE WEB
+- `La Roulotte Solidaire Toulouse`
+- Plateforme officielle d’information, de `coordination` et de `mobilisation citoyenne`.
 
-📌 Présentation
-Le site web de La Roulotte Solidaire Toulouse a pour objectif de :
+---
+
+### 📌 Présentation
+> Le site web de La Roulotte Solidaire Toulouse a pour objectif de :
 - présenter l’association, ses valeurs et ses actions
 - faciliter l’accès aux informations pour les bénévoles et les bénéficiaires
 - centraliser les ressources (guides, documents, procédures)
@@ -17,8 +21,8 @@ Ce site est conçu pour être léger, accessible, responsive, et utilisable sur 
 
 ---
 
-🏗️ Architecture du site
-Le site repose sur une structure simple, claire et évolutive :
+### 🏗️ Architecture du site
+- Le site repose sur une structure simple, claire et évolutive :
 
 `
 /site
@@ -44,7 +48,7 @@ Le site repose sur une structure simple, claire et évolutive :
 
 ---
 
-🎨 Identité visuelle
+### 🎨 Identité visuelle
 - Palette : couleurs douces, chaleureuses, inspirées du terrain  
 - Typographies lisibles et accessibles  
 - Icônes simples et universelles  
@@ -52,7 +56,7 @@ Le site repose sur une structure simple, claire et évolutive :
 
 ---
 
-🛠️ Technologies utilisées
+### 🛠️ Technologies utilisées
 - HTML5 / CSS3 — structure et style  
 - JavaScript — interactions et formulaires  
 - JSON — stockage léger des données locales  
@@ -61,7 +65,7 @@ Le site repose sur une structure simple, claire et évolutive :
 
 ---
 
-🚀 Fonctionnalités principales
+### 🚀 Fonctionnalités principales
 
 👥 Gestion des bénévoles
 - création de compte  
@@ -69,20 +73,20 @@ Le site repose sur une structure simple, claire et évolutive :
 - rôles et permissions  
 - historique des participations  
 
-❤️ Gestion des bénéficiaires
+### ❤️ Gestion des bénéficiaires
 - création de dossier complet  
 - informations personnelles  
 - besoins spécifiques  
 - suivi des distributions  
 - confidentialité renforcée  
 
-🚚 Gestion des tournées
+### 🚚 Gestion des tournées
 - planification  
 - affectation des bénévoles  
 - suivi des stocks  
 - rapports automatiques  
 
-📚 Documentation intégrée
+### 📚 Documentation intégrée
 - guides bénévoles  
 - guides bénéficiaires  
 - procédures internes  
@@ -90,7 +94,7 @@ Le site repose sur une structure simple, claire et évolutive :
 
 ---
 
-🔐 Sécurité & confidentialité
+### 🔐 Sécurité & confidentialité
 - aucune donnée sensible stockée sans chiffrement  
 - séparation claire entre données publiques et privées  
 - conformité RGPD  
@@ -99,7 +103,7 @@ Le site repose sur une structure simple, claire et évolutive :
 
 ---
 
-🧩 Scripts associés
+### 🧩 Scripts associés
 Le site peut être enrichi par des scripts Bash/Python :
 
 - create_volunteer.sh  
@@ -111,7 +115,7 @@ Le site peut être enrichi par des scripts Bash/Python :
 
 ---
 
-🧪 Tests & validation
+### 🧪 Tests & validation
 - validation HTML/CSS  
 - tests de formulaires  
 - vérification des JSON  
@@ -120,7 +124,7 @@ Le site peut être enrichi par des scripts Bash/Python :
 
 ---
 
-🚀 Déploiement
+### 🚀 Déploiement
 Le site peut être déployé via :
 - GitHub Pages  
 - un serveur mutualisé  
@@ -134,7 +138,7 @@ bash scripts/sync_site.sh
 
 ---
 
-🤝 Contribution
+### 🤝 Contribution
 Toute contribution est la bienvenue :
 - amélioration du design  
 - ajout de pages  
@@ -149,15 +153,15 @@ Merci de suivre les conventions du dépôt :
 
 ---
 
-📄 Licence
+### 📄 Licence
 Projet sous licence MIT (modifiable selon tes besoins).
 
 ---
 
-📬 Contact
-📧 Email : contact@laroulottesolidaire.fr  
-📍 Toulouse, France  
-🌐 Site : https://laroulottesolidaire.fr
+##📬 Contact
+- 📧 `contact[DOMAIN.FR]` 
+- 📍 `Toulouse, France`  
+- 🌐 `https://laroulottesolidaire.fr`
 `
 
 ---
