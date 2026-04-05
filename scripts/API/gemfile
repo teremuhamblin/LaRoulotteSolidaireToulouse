@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "sinatra"
+gem "sinatra-contrib"   # JSON, namespace, etc.
+gem "rack-protection"
+gem "rack-cors"
+gem "oj"                # JSON rapide
+gem "logger"
