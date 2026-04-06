@@ -1,0 +1,13 @@
+[Unit]
+Description=Maintenance automatique - La Roulotte Solidaire Toulouse
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/USERNAME/roulotte/scripts/maintenance/cron_maintenance.sh
+WorkingDirectory=/home/USERNAME/roulotte/
+StandardOutput=append:/home/USERNAME/roulotte/logs/systemd/maintenance.log
+StandardError=append:/home/USERNAME/roulotte/logs/systemd/maintenance_error.log
+
+[Install]
+WantedBy=multi-user.target
