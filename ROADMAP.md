@@ -2,7 +2,7 @@
 
 ---
 
-🟩 Roadmap ALPHA — Fondations
+## 🟩 Version ALPHA — Fondations
 - Définir l’identité (mission, valeurs, charte).  
 - Structurer l’organisation (rôles, processus simples).  
 - Créer les outils terrain de base (fiches, checklists).  
@@ -10,8 +10,7 @@
 - Lancer les premières maraudes pilotes.
 
 ---
-
-🟦 Roadmap BÊTA — Professionnalisation
+## 🟩 Version BÊTA — Professionnalisation
 - Renforcer la gouvernance (référents, transparence).  
 - Améliorer les outils terrain (suivi, tableaux de bord).  
 - Déployer les outils numériques internes.  
@@ -20,7 +19,7 @@
 
 ---
 
-🟧 Roadmap 1.0.0 — Stabilisation
+## 🟩 Version 1.0.0 — Stabilisation
 - Finaliser la gouvernance et les procédures.  
 - Stabiliser les outils terrain et le suivi.  
 - Finaliser le dashboard interne.  
@@ -29,7 +28,7 @@
 
 ---
 
-## Version 1. .0 — St1.ilité1& Autom.tisation0Obje ti— :Stiabiliser, automatisbr, fluidifier.
+## 🟩 Version 1.0.0_stableRC —Automatisation,fluidifier.
 
 ### Contenu prévu
 -l'Automatisaiion CRON tes scrépts de maintenance
@@ -41,7 +40,7 @@
 
 ---
 
-## Version 1.2.0 — Expérience & Accessibilité
+## 🟩 Version 1.2.0 — Expérience & Accessibilité
 Objectif : rendre tout plus simple, plus beau, plus accessible.
 
 ### Contenu prévu
