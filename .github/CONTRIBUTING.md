@@ -183,3 +183,107 @@ La solidarité est un mouvement collectif — chaque geste compte.
 `
 
 ---
+
+Annonce de lancement de la milestone v1.2.0
+
+Objet : Lancement de la version v1.2.0 — Observabilité, Dashboard TUI et Formulaires terrain
+
+Bonjour à toutes et tous,  
+
+La Roulotte passe en v1.2.0. Cette version se concentre sur observabilité, dashboard TUI et outils terrain (capture GPS/photo, formulaires, sync cloud). Nous ouvrons la milestone v1.2.0 et lançons le travail collaboratif : développement, CI, tests terrain et documentation.
+
+---
+
+Points clés de la version
+
+- Objectif principal : fournir visibilité et retours rapides après installation (logs JSON, résumé post_install, alertes).  
+- Livrables : module Observabilité, layout Zellij roulotte-dashboard, scripts Formulaires terrain, workflow CI --dry-run, hooks pre/post, docs et templates.  
+- Critères de succès : CI --dry-run verte ; dashboard fonctionnel ; 3 tests terrain validés.
+
+---
+
+Roadmap et calendrier
+
+Durée cible : 4 semaines  
+Phases  
+- Semaine 1 : Spécifications, backlog, maquette Zellij.  
+- Semaine 2 : Développement module observabilité + hooks.  
+- Semaine 3 : CI, lint, tests automatisés (--dry-run).  
+- Semaine 4 : Tests terrain (3 volontaires), corrections, release candidate.
+
+---
+
+Actions immédiates et priorités
+
+À faire maintenant
+- Créer la milestone v1.2.0 et assigner les issues prioritaires (Observabilité, Dashboard, Formulaires, CI, Tests terrain, Docs).  
+- Ajouter le workflow GitHub Actions ci-dryrun.yml (lint → shellcheck → dry-run) et protéger la branche main.  
+- Installer le hook post_install pour générer le résumé JSON après installation.  
+- Recruter 3 volontaires terrain pour tests (installation complète, capture GPS/photo, sync cloud).
+
+Checklist rapide
+- [ ] Milestone v1.2.0 créée  
+- [ ] Issues créées et assignées  
+- [ ] CI workflow ajouté et testé sur PR  
+- [ ] post_install hook opérationnel  
+- [ ] Dashboard Zellij validé localement  
+- [ ] 3 tests terrain réalisés et retours collectés  
+- [ ] Docs et RELEASE_NOTES prêts
+
+---
+
+Comment contribuer concrètement
+
+Développement
+- Prendre une issue dans la milestone et ouvrir une PR.  
+- Exécuter shellcheck et ./scripts/mobile/installtermuxgodmode.sh --profile standard --dry-run --verbose localement avant PR.  
+- Joindre les logs JSON/text en artifact sur la PR.
+
+Tests terrain
+- Suivre le plan de test fourni dans docs/tests/TERRAIN.md.  
+- Remplir le formulaire de retour Markdown et attacher les logs et captures.
+
+Documentation
+- Mettre à jour docs/releases/1.2.0/RELEASE_NOTES.md et CHANGELOG.md pour chaque PR significative.
+
+---
+
+Commandes utiles (prêtes à coller)
+
+Créer la milestone
+`bash
+gh milestone create v1.2.0 --due "$(date -d '+28 days' +%Y-%m-%d)" --description "Observabilité, Dashboard TUI, Formulaires terrain, CI dry-run"
+`
+
+Créer une issue exemple
+`bash
+gh issue create --title "Observabilité Module" --body "Implémenter collecte métriques d'installation et logs JSON. Acceptance: logs JSON dans ~/.local/share/roulotte-termux/logs, hook post_install extrait résumé." --milestone v1.2.0
+`
+
+Tester en local (dry-run)
+`bash
+bash scripts/mobile/installtermuxgodmode.sh --profile standard --dry-run --verbose > dryrun_output.txt 2>&1 || true
+`
+
+---
+
+Réunions et coordination
+
+- Réunion de kickoff : 30 minutes cette semaine pour valider backlog et assignations.  
+- Standup hebdo : 15 minutes chaque lundi pour suivre l’avancement.  
+- Canal de coordination : créer un thread dédié dans le canal projet (Slack/Matrix) pour retours terrain et alertes.
+
+---
+
+Contact et points de contact
+
+- Responsable release : Teremu  
+- Dev lead : @dev  
+- Ops / tests terrain : @ops  
+- Docs : @doc
+
+Pour toute urgence ou blocage critique, poster dans le canal projet avec le tag [v1.2.0][URGENT].
+
+---
+
+Merci à toutes et tous pour votre engagement. Cette version va rendre nos installations beaucoup plus observables et nos retours terrain plus exploitables — c’est un grand pas pour la Roulotte. Je m’occupe de créer la milestone et les issues si tu veux, et je peux préparer le message d’annonce à envoyer par mail/Slack avec le lien vers la milestone.
